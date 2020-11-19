@@ -1,0 +1,771 @@
+body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;'
+	color:#fff;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Libre Baskerville', sans-serif;
+	font-weight: 400;
+	margin: 0;
+}
+
+a, p, div, header, section, footer, input, ul, ol, li, form, button, img {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header {
+	background: url('../img/backgrounds/header.jpg');
+	padding-bottom: 83px;
+}
+
+.container {
+	width: 1500px;
+	margin: 0 auto;
+	/*padding-right: 40px;*/
+	/*padding-top: 100px;
+	padding-bottom: 100px;*/
+
+}
+
+.wheel {
+	position: absolute;
+	margin-left: 645px;
+	margin-top: 25px;
+}
+
+.menuwrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 225px;
+}
+
+.menu {
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 14px;
+	text-transform: uppercase;
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+}
+
+.menu li {
+color: #fff;
+}
+
+.menuoption {
+	text-decoration: none;
+	padding: 40px;
+	 /*transition: 1s;*/
+}
+
+.menuoption:hover {
+	border-bottom: 1px solid #fff;
+}
+
+.headerwrapper{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.banner{
+	width: 100%;
+	margin: 0 auto;
+	display: inline-block;
+	align-items: center;
+	margin-bottom: 36px;
+}
+
+.banner_inner{
+	text-align: center;
+	width: 100%;
+	font-family: 'Open Sans';
+	font-weight: 700;
+	text-transform: uppercase;
+	/*margin-bottom: -10px;*/
+	color: #fff;
+	line-height: 14px;
+	letter-spacing: 0.5em;
+}
+
+.offer{
+	text-align: center;
+	width: 100%;
+	font-size: 96px;
+	text-transform: uppercase;
+	color: #fff;
+	letter-spacing: 0.06em;
+}
+
+.btns{
+	margin: 0 auto;
+	width: 100%;
+	align-items: center;
+	display: flex;	
+	justify-content: center;
+	margin-bottom: 85px;
+
+}
+
+.btn{
+	color: #fff;
+	text-decoration: none;
+	padding: 20px;
+	border-radius: 5px;
+	width: 250px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 12px;	
+	text-align: center;	
+}
+
+.btnone{
+	background-color: #e8c300;
+	border: 1px solid #e8c300;	
+	margin-right: 25px;
+	
+}
+
+.btnone:hover {
+	background-color: #ffd600;
+	 transition: 1s;
+
+}
+
+.btntwo{
+	border: 1px solid #fff;
+	margin-left: 25px;
+	
+}
+
+.btntwo:hover {
+	border: 1px solid #888;
+	transition: 1s;
+}
+
+.down{
+	display: flex;
+	justify-content: center;
+	display: flex;
+	align-items: 
+}
+
+
+
+.social {
+	width: 60px;
+	display: flex;
+	flex-direction: column;
+	
+	
+
+}
+
+.middlepart {
+	margin: 0 auto;
+
+
+}
+
+.leftpanel{
+	transform: rotate(-90deg);
+	transform-origin: 0 100% 0;
+	display: flex;
+	height: 60px;
+	width: 270px;
+	/*margin-left: -300px;*/
+	position: absolute;
+	margin-top: auto;
+
+}
+
+.paneltext{
+	color: #fff;
+	font-family: 'Open Sans';
+	text-align: center;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 12px;
+	
+}
+
+
+	/*4allpages*/
+
+.pagewrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 475px;
+}
+
+.picture {
+	/*margin-top: -50px;*/
+}
+
+	/*SECONDPAGE*/
+
+.secondpage {
+	padding: 100px 0;
+
+}
+
+
+.txtwrap {
+	width: 600px;
+	text-align: center;
+	margin: auto;
+
+
+}
+
+.name {
+	text-transform: uppercase;
+	font-family: 'Libre Baskerville';
+	margin-bottom: 20px;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	font-size: 36px;
+	text-align: center;
+	
+}
+
+.pagetxt {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.txtname {
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.fireplace {
+
+}
+
+.secondpageimg {
+
+}
+
+	/*THIRDPAGE*/
+
+
+.thirdpage {
+	background: url('../img/backgrounds/specialty.jpg');
+	padding-bottom: 100px;
+}
+
+.overtext {
+	text-align: center;
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 12px;
+	height: 100px;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+	color: #fff;
+	width: 100%;
+	line-height: 150px;
+	
+	/*margin-top: 50px;
+	margin-bottom: 50px;*/
+}
+
+
+	/*FOURTHPAGE*/
+
+.foursection{
+	padding-top: 100px;
+}
+
+
+
+.formwrap {
+	width: 565px;
+	margin-top: 62px;
+	margin-left: 84px;
+	
+}
+
+.book{
+
+}
+
+.form {
+	
+}
+
+.bookwrap {
+	display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: space-between;
+    
+}
+
+.formplace {
+	 display: block;
+	 padding: 20px 10px;
+	 background: #E5E5E5;
+	 border: 1px solid #E5E5E5;
+	 border-radius: 5px;
+	/* margin-right: 10px;*/
+	 margin-bottom: 10px;
+	 width: 277px;
+}
+
+.formbtn {
+ 	width: 100%;
+ 	background-color: #E8C300;
+	border: 1px solid #E8C300;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	padding: 25px ;
+	text-transform: uppercase;
+	 font-family: 'Open Sans';
+	 font-weight: 700;
+	 font-size: 12px;
+}
+
+.formbtn:hover {
+	background-color: #ffd600;
+	transition: 1s;
+}
+
+.clock {
+	margin-top: -45px;
+}
+
+.dateinf {
+	color: #A5A0A0;
+	text-align: center;
+	padding: 45px;
+}
+
+.dateinf span {
+	color: #787878;
+	font-weight: 700;
+}
+
+
+	/*FIFTHPAGE*/
+
+.fifthsection{
+	background: url('../img/backgrounds/5bg.png');
+	padding-bottom: 100px;
+}
+
+	/*SIXTHSECTION*/
+
+.sixthsection{
+	padding: 100px 0;
+}
+
+.delimenu {
+	padding: 0 20%;
+	margin: 50px 0;
+}
+
+.foodlist {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	
+}
+
+.foodname {
+	text-transform: uppercase;
+	color: #000;
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 12px;
+	padding: 15px 40px;
+/*	box-sizing: border-box;*/
+}
+
+.foodname:hover {
+	border-bottom: 1px solid #000;
+}
+
+.borderplus {
+	border-right: 1px solid rgba(51, 51, 51, 0.2);
+}
+
+.bigfoodmenu {
+/*	box-sizing: border-box;*/
+	margin-left: 84px;
+	display: grid;
+	grid-auto-flow: column;
+    grid-template-rows: repeat(7, 1fr);
+    justify-content: space-between;
+
+}
+
+.foodtxtwrap {
+	padding-bottom: 33px;
+}
+
+.pizzaname {
+	font-family: 'Libre Baskerville';
+	font-weight: 400;
+	font-size: 18px;
+
+}
+
+.pizzatxt {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 12px;
+	color: #A5A0A0;
+}
+
+	/*SEVENTHSECTION*/
+
+.seventhsection {
+	background: url('../img/backgrounds/7bg.png');
+}
+
+	/*EIGHTHSECTION*/
+
+.eightsection {
+
+}
+
+.imgwrap {
+	display: flex;
+	flex-direction: row;
+}
+
+.picseria {
+	width: 25%;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+	/*NINTHSECTION*/
+
+.ninthsection {
+	padding: 100px 0;
+}
+
+.form2{
+	margin-top: 50px;
+}
+
+.secondformwrap {
+	display: grid;
+	grid-template-columns: 210px 210px 210px 210px 210px 210px 210px ;
+	grid-template-rows: 60px 120px 60px;
+	padding-left: 130px;
+	
+
+
+}
+
+.formtwoplace {
+	margin-right: 10px;	
+	margin-bottom: 10px;
+	background-color: #e5e5e5;
+	border: 1px solid #E5E5E5;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+
+.bigplace {
+
+}
+
+.formtext {
+ 	font-weight: 700;
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 12px;
+	color: #a5a0a0;
+	line-height: 12px;
+	margin-bottom: 10px;
+	letter-spacing: 0.03em;
+	padding-top: 10px;
+
+}
+.formtext span {
+	color: #E8C300;
+	font-weight: 900;
+	line-height: 14px;
+	letter-spacing: 0.05em;
+	font-size: 14px;
+
+}
+
+.btnformtwo {
+	margin-right: 10px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	border: 1px solid #E8C300;
+	border-radius: 5px;
+	background-color: #e8c300;
+	color: #fff;
+	font-weight: 700;
+	font-size: 12px;
+	font-family: 'Open Sans';
+}
+
+.btnformtwo:hover {
+	background-color: #ffd600;
+	transition: 1s;
+}
+
+.nameplace {
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+.mailplace {
+	grid-column-start: 3;
+	grid-column-end: 5;
+}
+
+.telplace {
+	grid-column-start: 5;
+	grid-column-end: 7;
+}
+
+.messageplace {
+	grid-column-start: 1;
+	grid-column-end: 7;
+}
+
+.textplace {
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
+
+.btnplace {
+	grid-column-start: 4;
+	grid-column-end: 7;
+}
+
+	/*SECTIONMAP*/
+
+.map {
+
+}
+
+.mapimage{
+	width: 100%;
+
+}
+
+
+	/*FOOTER*/
+
+.footer {
+	background: rgba(0, 0, 0, 0.9);
+}
+
+.footertxt {
+	text-align: center;
+	color: #fff;
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 12px;
+	opacity: 50%;
+	padding: 45px;
+}
+
+.footertxt span {
+	font-weight: 700;
+} 
+
+
+	/*responsive*/
+
+
+/*992px-1200px*/
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 90%;
+	}
+
+	.menuoption {
+		padding: 30px;
+	}
+
+	.wheel {
+		display: none;	
+	}
+
+	.down {
+		display: none;	
+	}
+
+	.social {
+		display: flex;	 	
+		width: 100%;	
+		justify-content: center;	
+		flex-direction: row;
+			
+	}
+
+	.headerwrapper {
+		flex-direction: column;
+
+	}
+
+	.pic {
+		margin-right: 10px;
+		display: inline;		
+	}
+
+	.menuwrapper {
+		margin-bottom: 170px;	
+		width: 100%;	
+		display: none;	
+	}
+
+	.header {
+		padding-top: 220px;	
+	}
+
+	.secondpageimg {
+		display: none;	
+	}
+
+	.cook {
+		display: none;	
+	}
+
+	.clock {
+		display: none;	
+	}
+	.formwrap {
+		margin: 0 auto;	
+		padding-top: 50px;	
+	}
+
+	.pancake {
+		display: none;	
+	}
+
+	.foodlist {
+		width: 90%;
+		/*margin: 0 auto;*/	
+	}
+
+	.delimenu {
+		padding: 0;	
+	}
+
+	.seventhsection {
+		display: none;	
+	}
+
+	.eighthsection {
+		display: none;	
+	}
+
+	.secondformwrap {
+		grid-template-columns: 15% 15% 15% 15% 15% 15%;
+	}
+}
+
+/*768px-992px*/
+@media screen and (max-width: 992px) {
+	
+}
+
+/*576px-768px*/
+@media screen and (max-width: 768px) {
+	.btnone {
+		margin-right: 5px;
+	}
+
+	.btntwo {
+		margin-left: 5px;
+	}
+
+	.formplace {
+		width: 250px;
+	}
+
+	.foodname {
+		padding: 15px 16px;
+	}
+
+	.pizzaname {
+		font-size: 15px;
+	}
+
+	.txtname {
+		font-size: 1em;
+	}
+
+	.secondformwrap {
+	grid-template-columns: 300px;
+    grid-template-rows: 60px 60px 60px 120px 60px 60px;
+	}
+
+	.mailplace {
+		grid-column-start: 1;
+	}
+
+	.telplace {
+		grid-column-start: 1;
+	}
+
+	.messageplace {
+		grid-column-start: 1;
+	}
+
+	.btnplace {
+		grid-column-start: 1;
+	}
+
+	.nameplace {
+		grid-column-end: 4;
+	}
+
+	.txtwrap {
+		width: auto;
+	}
+
+	.offer {
+		font-size: 90px;
+	}
+
+	.foodlist {
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+	}
+
+	.bigfoodmenu {
+		margin-left: 0;
+	}
+
+	.secondformwrap {
+		padding: 0;
+	}
+}
+
+/*0-576px*/
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+}
